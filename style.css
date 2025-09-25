@@ -10,12 +10,11 @@ header{
     display: flex;
     background-color: rgb(0, 0, 56);
     position: fixed;
+    padding-right: 300px;
+    z-index: 1;
 }
 
 
-.top{
-    padding-righ;
-}
 nav ul{
     display: flex;
     padding-bottom: 20px;
@@ -41,7 +40,7 @@ nav ul{
     
 }
 
-button{
+.button-1{
     border-radius: 30px;
     background-color:rgb(224, 153, 0);
     padding: 10px;
@@ -57,9 +56,9 @@ h1{
 
 .img-1:hover{
     transform: scale(1.5);
-    transition: 0.3;
-    transition-duration: 2s;
-    transition-behavior: ;
+    transition: 0.2;
+    transition-duration: 1s;
+    z-index: 2;
 
 }
 .sec-sec{
@@ -108,7 +107,7 @@ h1{
 .img-2:hover{
     transform: scale(1.1);
     transition: 0.3;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-behavior: ;
 }
 
@@ -127,24 +126,11 @@ h1{
 }
 
 
-.head4{
-    margin-top: 100px;
-    font-size: 36px;
-    margin-left: 50px;
-    display: inline;
-}
-
-
-
-.img-4{
-    border-radius: 30px;
-    margin-left: 100px;
-}
 
 .img-4:hover{
     transform: scale(1.1);
     transition: 0.3;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-behavior: ;
 }
 
@@ -162,4 +148,75 @@ h1{
     flex-wrap: wrap;
 }
 
+
+
+
+
+.fourth-sec{
+    display: flex;
+
+}
+
+
+
+
+.parent-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 180px;
+    align-items: center;
+}
+
+
+.div1{
+    font-size: 25px;
+    margin-right: 100px;
+}
+.div2{
+    font-size: 14px;
+}
+
+.parent-div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+
+.head4{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+.image-4{
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.p1{
+    line-height: 29px;
+    margin-bottom: 30px
+}
+
+.p2{
+    margin-bottom: 100px;
+}
+
+
+.p3{
+    font-size: 16px;
+}
+
+
+.button-3{
+    border: none;
+    background-color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
 
